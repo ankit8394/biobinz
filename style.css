@@ -252,3 +252,9 @@ header .green-text {
         display: block;
     }
 }
+@media(max-width:426px){
+    #carouselExampleCaptions img{
+        height: 50vh
+    }
+
+}
