@@ -35,32 +35,31 @@ header .green-text {
     color: #24a647;
 }
 
-header nav ul {
+#list{
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-header nav ul li {
+#list li {
     margin-right: 20px;
     text-align: center;
     padding: 10px 3px;
 }
 
-header nav ul li a {
+#list li a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
     padding: 5px 10px;
 }
 
-header nav ul li a.active,
-header nav ul li a:hover {
+#list li a.active,
+#list li a:hover {
     color: #24a647;
     border-bottom: 2px solid #24a647;
 }
-
 
 /* Social Media */
 .social-media {
