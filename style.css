@@ -1,0 +1,255 @@
+.social-media a img {
+    width: 30px;
+    margin: 10px 0;
+    border-radius: 100px;
+}
+#carouselExampleCaptions img{
+    height: 93vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+header .green-text {
+    color: #24a647;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px 3px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: #24a647;
+    border-bottom: 2px solid #24a647;
+}
+
+
+/* Social Media */
+.social-media {
+    position: fixed;
+    top: 30%;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main Sections */
+.main-sections {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.main-sections h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.main-sections p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.main-sections .section-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.section-links a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-links a img {
+    width: 90px;
+    margin: 20px 20px 20px 20px;
+}
+
+.section-links a:hover {
+    color: #24a647;
+}
+#menu{
+    font-size: 30px;
+    border: 2px solid green;
+    padding:0px 20px 5px 20px;
+}
+.fa-xmark{
+    color: #24a647;
+    padding: 5px;
+    border: 2px solid #24a647;
+}
+.menu-btn{
+    border: none;
+    background: none;
+    display: none;
+}
+/* India Updates Scrollable Section */
+.updates-container {
+    width: 80%;
+    background: #2cd380;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px auto;
+    color: #000;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+
+.updates-container h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.updates-scrollable {
+    height: 200px;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.updates-scrollable p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.view-all {
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: #000;
+    background: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.view-all a:hover {
+    background: #e0e0e0;
+}
+
+
+
+/* Other Sections Container */
+.other-sections-container {
+    background: #d35400; /* Orange background */
+    text-align: center;
+    padding: 30px 10px;
+    color: #fff;
+}
+
+.other-sections-container h2 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.section-btn {
+    background: #007bff; /* Blue button color */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.section-btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px); /* Button hover effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.division-note {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #f8f9fa;
+}
+
+.division-note .highlight {
+    color: #ffd700; /* Gold color for emphasis */
+    font-weight: bold;
+}
+
+
+
+
+@media(max-width:964px){
+    #list{
+        position: absolute;
+        z-index: 10;
+        margin-left: -90px;
+        background-color: #fff;
+        padding-top: 20px;
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+}
